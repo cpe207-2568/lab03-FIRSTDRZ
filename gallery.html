@@ -12,24 +12,66 @@
     />
     <link rel="stylesheet" href="style.css"/>
   </head>
-  <body>
-    <div class="container"> 
-      <header class="d-flex justify-content-center py-3"> 
-        <ul class="nav nav-pills"> 
-          <li class="nav-item"><a href="index.html" class="nav-link " aria-current="page">Home</a></li> 
-          <li class="nav-item"><a href="exp.html" class="nav-link">Experience</a></li> 
-          <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li> 
-          <li class="nav-item"><a href="contact.html"  class="nav-link">Contact</a></li> 
-        </ul> 
-      </header> 
-    </div>
-    
-    <footer class="footer">
-      <div class="container">
-        <p class="footer-text">
-          © 2025 Nasapong Thipwong. All rights reserved.
-        </p>
+  <body class="bg-image" style="background-image: url('images/bg-img2.JPG'); background-size: cover; min-height: 100vh;">
+    <div class="container-fluid p-0"> 
+      <div class="bg-dark bg-opacity-75 min-vh-100">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills"> 
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li> 
+            <li class="nav-item"><a href="exp.html" class="nav-link">Experience</a></li> 
+            <li class="nav-item"><a href="gallery.html" class="nav-link active" aria-current="page">Gallery</a></li> 
+            <li class="nav-item"><a href="contact.html"  class="nav-link">Contact</a></li> 
+          </ul> 
+        </header><br>
+        <div class="container">
+          <h1 class="text-white text-center mb-4">My Photo Gallery</h1>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card bg-dark text-white h-100">
+                <img src="images/gal1.JPG" class="card-img-top" alt="CMU Trekking">
+                <div class="card-body">
+                  <h5 class="card-title">CMU TREKKING 2024</h5>
+                  <p class="card-text">TREKKING TO DOI SUTHEP</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-dark text-white h-100">
+                <img src="images/bg-img4.JPEG" class="card-img-top" alt="First meet">
+                <div class="card-body">
+                  <h5 class="card-title">CPE - ISNE First Meeting</h5>
+                  <p class="card-text">Generation 33 Activities</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-dark text-white h-100">
+                <img src="images/Open.HEIC" class="card-img-top" alt="Openhouse">
+                <div class="card-body">
+                  <h5 class="card-title">Open House Entaneer </h5>
+                  <p class="card-text">Meeting other student</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-dark text-white h-100">
+                <img src="images/net.HEIC" class="card-img-top" alt="Network">
+                <div class="card-body">
+                  <h5 class="card-title">Network lab</h5>
+                  <p class="card-text">Photo from network room</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer mt-5">
+          <div class="container">
+            <p class="footer-text text-grey">
+              © 2025 Nasapong Thipwong. All rights reserved.
+            </p>
+          </div>
+        </footer>
       </div>
-    </footer>
+    </div>
   </body>
 </html>

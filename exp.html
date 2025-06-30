@@ -12,24 +12,59 @@
     />
     <link rel="stylesheet" href="style.css"/>
   </head>
-  <body>
-    <div class="container"> 
-      <header class="d-flex justify-content-center py-3"> 
-        <ul class="nav nav-pills"> 
-          <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li> 
-          <li class="nav-item"><a href="exp.html" class="nav-link active">Experience</a></li> 
-          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li> 
-          <li class="nav-item"><a href="contact.html"  class="nav-link">Contact</a></li> 
-        </ul> 
-      </header> 
-    </div>
-    
-    <footer class="footer">
-      <div class="container">
-        <p class="footer-text">
-          © 2025 Nasapong Thipwong. All rights reserved.
-        </p>
+  <body class="bg-image" style="background-image: url('images/bg-img1.JPG'); background-size: cover; min-height: 100vh;">
+    <div class="container-fluid p-0"> 
+      <div class="bg-dark bg-opacity-75 min-vh-100">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills"> 
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li> 
+            <li class="nav-item"><a href="exp.html" class="nav-link active" aria-current="page">Experience</a></li> 
+            <li class="nav-item"><a href="gallery.html" class="nav-link ">Gallery</a></li> 
+            <li class="nav-item"><a href="contact.html"  class="nav-link">Contact</a></li> 
+          </ul> 
+        </header>
+        <div class="container mt-4">
+          <h1 class="text-white text-center mb-4">My Experience</h1>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card bg-dark text-white border-light h-100">
+                <div class="card-body">
+                  <div class="d-flex align-items-center mb-3">
+                    <img src="images/TA.HEIC" width="100" height="100" class="rounded me-3">
+                    <h5 class="card-title mb-0">Teacher Assistant</h5>
+                  </div>
+                  <p class="card-text">I used to be an TA for Basic Computer Engineering(261103)</p>
+                  <div class="mt-3">
+                    <span class="badge bg-primary me-2">Scratch</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card bg-dark text-white border-light h-100">
+                <div class="card-body">
+                  <div class="d-flex align-items-center mb-3">
+                    <img src="images/First2.JPEG" width="150" height="100" class="rounded me-3">
+                    <h5 class="card-title mb-0"><a href="https://firstdrz.github.io/Portfolio/" target="_blank">Portfolio Website</a></h5>
+                  </div>
+                  <p class="card-text">This is my demo portfolio website</p>
+                  <div class="mt-3">
+                    <span class="badge bg-warning text-dark me-2">HTML5</span>
+                    <span class="badge bg-info me-2">CSS3</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer mt-5">
+          <div class="container">
+            <p class="footer-text text-grey">
+              © 2025 Nasapong Thipwong. All rights reserved.
+            </p>
+          </div>
+        </footer>
       </div>
-    </footer>
+    </div>
   </body>
 </html>
